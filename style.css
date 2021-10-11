@@ -140,6 +140,15 @@ header .navbar ul li a:hover{
     background:var(--yellow);
 }
 
+header .follow a{
+    font-size: 2.5rem;
+    color: #fff;
+    margin:0 .7rem;
+}
+
+header .follow a:hover{
+    color:var(--yellow);
+}
 #menu{
     position: fixed;
     top: 2rem;
@@ -181,57 +190,68 @@ header .navbar ul li a:hover{
     padding: 1rem 0;
 }
 
+.about .content p{
+    color:#fff;
+    font-size: 1.7rem;
+    padding: .5rem 0;
+}
+
+.about .content .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 0.5rem 0;
+
+}
+
+.about .content .box-container .box{
+    flex:1 1 20rem;
+}
+
+.about .content .box-container .box span{
+    color: var(--yellow);
+}
+
 .about .row{
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
-    padding: 1rem 0;
-}
-
-.about .row .info{
-    flex: 1 1 45rem;
-    padding:2rem 1rem;
-    padding-left: 6rem;
-}
-
-.about .row .info h3{
-    font-size: 2rem;
-    color: var(--yellow);
-    padding: 1rem 0;
-    font-weight: normal;
-}
-
-.about .row .info h3 span{
-    color:#eee;
-    padding:0 .5rem;
-}
-
-.about .row .counter{
-    flex: 1 1 48rem;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.about .row .counter .box{
-    width: 20rem;
-    background: #222;
+    gap: 1.5rem;
     text-align: center;
-    padding:2rem;
-    margin:2rem;
-
 }
 
-.about .row .counter .box span{
-    font-size: 4rem;
-    color:var(--yellow)
+.about .row .skills{
+    flex:1 1 40rem;
 }
 
-.about .row .counter .box h3{
-    font-size: 2rem;
-    color: #fff;
+.about .row .skills .progress{
+    padding:1rem 0;
 }
+
+.about .row .skills .progress h3{
+    display: flex;
+    justify-content: space-between;
+    padding:.7rem 0;
+    font-size: 1.7rem;
+    color:#fff;
+    font-weight: 400;
+}
+
+.about .row .skills .progress .bar{
+    width: 100%;
+    background: #ccc;
+    overflow: hidden;
+    height: 1rem;
+    border-radius: 50rem;
+}
+
+.about .row .skills .progress .bar span{
+    font-display:block ;
+    height:100% ;
+    background:yellow;
+}
+
+
+
 
 
 
