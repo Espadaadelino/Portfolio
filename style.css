@@ -212,22 +212,22 @@ header .follow a:hover{
     color: var(--yellow);
 }
 
-.about .row{
+.Myskill .row{
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
     text-align: center;
 }
 
-.about .row .skills{
+.Myskill .row .skills{
     flex:1 1 40rem;
 }
 
-.about .row .skills .progress{
+.Myskill .row .skills .progress{
     padding:1rem 0;
 }
 
-.about .row .skills .progress h3{
+.Myskill .row .skills .progress h3{
     display: flex;
     justify-content: space-between;
     padding:.7rem 0;
@@ -236,7 +236,7 @@ header .follow a:hover{
     font-weight: 400;
 }
 
-.about .row .skills .progress .bar{
+.Myskill .row .skills .progress .bar{
     width: 100%;
     background: #eee;
     overflow: hidden;
@@ -244,28 +244,28 @@ header .follow a:hover{
     border-radius: 50rem;
 }
 
-.about .row .skills .progress .bar span{
+.Myskill .row .skills .progress .bar span{
     display: block;
     height: 100%;
     
 }
 
-.about .row .skills .progress:nth-child(1) .bar span{
+.Myskill .row .skills .progress:nth-child(1) .bar span{
     width:95%;
     background:var(--yellow)
 }
 
-.about .row .skills .progress:nth-child(2) .bar span{
+.Myskill .row .skills .progress:nth-child(2) .bar span{
     width: 80%;
     background: var(--yellow);
 }
 
-.about .row .skills .progress:nth-child(3) .bar span{
+.Myskill .row .skills .progress:nth-child(3) .bar span{
     width:60%;
     background: var(--yellow);
 }
 
-.about .row .box-container{
+.Myskill .row .box-container{
     flex:1 1 48rem;
     display: flex;
     flex-wrap: wrap;
@@ -273,7 +273,7 @@ header .follow a:hover{
     
 }
 
-.about .row .box-container .box{
+.Myskill .row .box-container .box{
    flex:1 1 15rem;
    background: #222;
    text-align: center;
@@ -282,18 +282,69 @@ header .follow a:hover{
   
 }
 
-.about .row .box-container .box h3{
+.Myskill .row .box-container .box h3{
     color:var(--yellow);
     font-size: 2rem;
 }
 
-.about .row .box-container .box p{
+.Myskill .row .box-container .box p{
     color:#eee;
     font-size: 1.7rem;
     padding-top: .5rem;
 }
 
+/*---Education----*/
 
+.education .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
+
+.education .box-container .box{
+    width: 27rem;
+    margin:4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+}
+
+.education .box-container .box span{
+    font-size: 1.3rem;
+    background: #222;
+    color:#fff;
+    border-radius: 5rem;
+    padding:.5rem 2.5rem;
+}
+
+.education .box-container .box h3{
+    font-size: 2rem;
+    color: #fff;
+    padding-top: 1.5rem;
+}
+
+.education .box-container .box p{
+    font-size: 1.4rem;
+    color:#eee;
+    padding: 1rem 0;
+}
+
+.education .box-container .box i{
+    position: absolute;
+    top: -1.5rem; left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius:50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color:#fff;
+    background: var(--yellow);
+
+}
 
 
 
@@ -354,7 +405,7 @@ header .follow a:hover{
         margin:0 3rem;
     }
 
-    .about .row .counter .box{
-        width:100%;
+    .education .box-container .box{
+        width:100%
     }
 }
