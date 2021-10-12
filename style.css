@@ -217,6 +217,7 @@ header .follow a:hover{
     flex-wrap: wrap;
     gap: 1.5rem;
     text-align: center;
+    padding-top:3rem;
 }
 
 .Myskill .row .skills{
