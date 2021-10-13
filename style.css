@@ -10,7 +10,6 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    text-transform: capitalize;
     transition: all .2s linear;
 }
 
@@ -59,7 +58,7 @@ section{
 
 }
 
-btn i{
+.btn i{
    padding: 0 .5rem; 
    font-size: 1.8rem;
 }
@@ -192,8 +191,9 @@ header .follow a:hover{
 
 .about .content p{
     color:#fff;
+    text-align: justify;
     font-size: 1.7rem;
-    padding: .5rem 0;
+    padding: 1rem 3rem;
 }
 
 .about .content .box-container{
@@ -257,7 +257,7 @@ header .follow a:hover{
 }
 
 .Myskill .row .skills .progress:nth-child(2) .bar span{
-    width: 80%;
+    width: 50%;
     background: var(--yellow);
 }
 
@@ -331,6 +331,7 @@ header .follow a:hover{
     font-size: 1.4rem;
     color:#eee;
     padding: 1rem 0;
+    text-align: justify;
 }
 
 .education .box-container .box i{
