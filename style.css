@@ -347,6 +347,89 @@ header .follow a:hover{
 
 }
 
+/*------Contac------*/
+
+
+.contact .icons-container{
+    display: flex;
+    gap: 1.5em;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.contact .icons-container .icons{
+    flex:1 1 25rem;
+    text-align: center;
+    padding: 2rem;
+    background: #222;
+    color:var(--yellow);
+    border-radius:.5rem;
+}
+
+.contact .icons-container .icons i{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    background: var(--yellow);
+    color:#fff;
+    border-radius:50%;
+
+}
+
+.contact .icons-container .icons h3{
+    color:#fff;
+    font-size: 1.7rem;
+}
+
+.contact .row{
+    display: flex;
+    flex-wrap:wrap;
+    gap:1.5rem;
+}
+
+/*----Form-----*/
+
+.contact .row form{
+    flex: 1 1 55rem;
+    background: #222;
+    padding:0 2rem;
+    border-radius: .5rem;
+}
+
+
+.contact .row form .box,
+.contact .row form textarea{
+    width: 100%;
+    background: #222;
+    border-bottom: .1rem solid #fff;
+    color:#fff;
+    text-transform: none;
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    margin: 1rem 0;
+}
+
+.contact .row form .box:focus,
+.contact .row form textarea:focus{
+    border-color:var(--yellow) ;
+}
+
+.contact .row form .box::placeholder,
+.contact .row form textarea::placeholder{
+    text-transform: capitalize;
+    color: #eee;
+}
+
+
+.contact .row form .btn{
+    margin-top:0;
+    margin-bottom: 1.5rem;
+}
+
+
+
+
 
 
 
