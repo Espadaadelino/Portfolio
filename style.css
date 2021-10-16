@@ -189,6 +189,8 @@ header .follow a:hover{
     padding: 1rem 0;
 }
 
+/* ------About------*/
+
 .about .content p{
     color:#fff;
     text-align: justify;
@@ -196,21 +198,11 @@ header .follow a:hover{
     padding: 1rem 3rem;
 }
 
-.about .content .box-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    padding: 0.5rem 0;
 
-}
 
-.about .content .box-container .box{
-    flex:1 1 20rem;
-}
 
-.about .content .box-container .box span{
-    color: var(--yellow);
-}
+
+/*------My Skills----*/
 
 .Myskill .row{
     display: flex;
