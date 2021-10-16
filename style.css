@@ -348,7 +348,78 @@ header .follow a:hover{
 
 }
 
-/*------Contac------*/
+.portfolio .box-container{
+    display:flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    padding:1rem 0;
+
+}
+
+.portfolio .box-container .box{
+    flex:1 1 30rem;
+    height: 25rem;
+    position: relative;
+    overflow:hidden ;
+    border: 0.15rem solid #fff ;
+    border-radius: .7rem;
+
+}
+
+.portfolio .box-container .box img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    border-radius: .5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.portfolio .box-container .box:hover img{
+    height: 71%;
+    width: 70%;
+}
+
+.portfolio .box-container .box h3{
+    position: absolute;
+    bottom:.5rem;
+    left: 1rem;
+    font-size: 2.5rem;
+    color:var(--yellow);
+    text-transform: uppercase;
+}
+
+.portfolio .box-container .box span{
+    color:#fff;
+}
+
+.portfolio .box-container .box .icons{
+    position:absolute;
+    top:1rem;
+    right:1rem;
+}
+
+.portfolio .box-container .box .icons a{
+    display:block;
+    height:4rem;
+    width: 4rem;
+    border-radius:.5rem;
+    background: #333;
+    color:#fff;
+    font-size: 1.7rem;
+    line-height: 4rem;
+    text-align: center;
+    margin-bottom:1rem;
+
+}
+
+.portfolio .box-container .box .icons a:hover{
+    background: var(--yellow);
+}
+
+
+
+/*------Contact------*/
 
 
 .contact .icons-container{
