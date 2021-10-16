@@ -191,11 +191,39 @@ header .follow a:hover{
 
 /* ------About------*/
 
-.about .content p{
-    color:#fff;
-    text-align: justify;
-    font-size: 1.7rem;
-    padding: 1rem 3rem;
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left:15px;
+    margin-top:29px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container .row{
+    display:flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left:-15px;
+}
+
+.container .row .col-md-6{
+    position:relative;
+    width: 100%;
+    padding-right:15px;
+    padding-left:15px
+}
+
+.container .row .col-md-6 .right-box-pro{
+    position:relative;
+    height:100%;
+}
+
+.container .row .col-md-6 .right-box-pro img{
+    width: 25%;
+    position: relative;
+    border-radius: 10px;
+    z-index:2
 }
 
 
