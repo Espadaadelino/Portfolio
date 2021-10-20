@@ -6,7 +6,7 @@
 
 *{
     font-family: 'Open Sans', sans-serif;
-    margin: 0;
+    margin: -0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
@@ -191,75 +191,15 @@ header .follow a:hover{
 
 /* ------About------*/
 
-.about .container{
-    width: 100%;
-    padding-right: 15px;
-    padding-left:15px;
-    margin-top:60px;
-    margin-right: auto;
-    margin-left: auto;
-}
 
-.about .container .row{
-    display:flex;
-    flex-wrap:nowrap;
-    gap: 2rem;
-    margin-right: 3px;
-    margin-left:3px;
-}
 
-.about .container .row .col-md-6{
-    position:relative;
-    width: 100%;
-    padding-right:15px;
-    padding-left:15px
-}
 
-.about .container .row .col-md-6 .right-box-pro{
-    position:relative;
-    height:100%;
-}
 
-.about .container .row .col-md-6 .right-box-pro img{
-    width: 100%;
-    height: 100%;
-    margin-left:4rem;
-    position: relative;
-    border-radius: 10px;
-    z-index:3
-    
-}
 
-.about .container .row .col-md-6 .right-box-pro .card-back{
-    width: 100%;
-    height: 100%;
-    padding:30px;
-    border-radius:10px;
-    margin: -402px 0px 0px 30px;
-    background-color: var(--yellow);
-    z-index: 2;
-    position: relative;
-    
-}
 
-.about .container .row .col-md-6 .right-box-pro .card-front{
-    width: 100%;
-    height: 100%;
-    padding:30px;
-    border-radius: 10px;
-    margin:-352px 0px 0px -11px;
-    background-color: transparent;
-    border:solid 2px #fff;
-    z-index: 1;
-    position:relative;
-}
 
-.about .container .row .col-md-6 p{
-    margin-bottom: 20px;
-    text-align: justify;
-    font-size: 2rem;
-    color:#fff
-}
+
+
 
 
 
