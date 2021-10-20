@@ -191,10 +191,43 @@ header .follow a:hover{
 
 /* ------About------*/
 
+.about .row-1{
+    display: flex;
+    flex-wrap:wrap ;
+    gap:1.5rem;
+    padding-top:2rem;
+    padding-bottom: 2rem;
+}
 
+.about .row-1 .image img{
+    height:100%;
+    width: 100%;
+    object-fit:cover ;
+    border:1rem solid var(--yellow);
+    border-radius:.5rem;
 
+}
 
+.about .row-1 .image{
+    flex:1 1 50rem;
+}
 
+.about .row-1 .content{
+    flex:1 1 50rem;
+
+}
+
+.about .row-1 .content h3{
+    color: #fff;
+    font-size: 3.5rem;
+}
+
+.about .row-1 .content p{
+    color: #fff;
+    font-size: 1.7rem;
+    text-align: justify;
+    padding:.5rem 0;
+}
 
 
 
@@ -519,6 +552,8 @@ header .follow a:hover{
     .home{
         padding: 1rem 4rem;
     }
+
+    
 }
 
 @media(max-width:991px){
@@ -544,6 +579,8 @@ header .follow a:hover{
     html{
         font-size: 50%;
     }
+
+    
 }
 
 @media(max-width:400px){
